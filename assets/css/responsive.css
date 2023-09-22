@@ -7,7 +7,7 @@
 }
 
 /* Tablet & Mobile */
-@media (max-width: 1023px) {
+@media(max-width: 1023px) {
     .btn {
         padding: 16px;
     }
@@ -28,9 +28,9 @@
         font-size: 48px;
     }
 
-    #footer .socials-list a {
-        margin: 0 8px;
-    }
+        #footer .socials-list a {
+            margin: 0 8px;
+        }
 
     #footer .copyright a {
         padding: 12px 0;
@@ -53,39 +53,41 @@
         overflow: hidden;
     }
 
-    #header .mobile-menu-btn {
-        display: block;
-    }
+        #header .mobile-menu-btn {
+            display: block;
+        }
 
-    #header .search-btn {
-        display: none;
-    }
+        #header .search-btn {
+            display: none;
+        }
 
     #nav {
         display: block;
     }
 
-    #nav > li {
-        display: block;
-    }
+        #nav > li {
+            display: block;
+        }
 
-    #nav > li:first-child {
-        display: inline-block;
-    }
+            #nav > li:first-child {
+                display: inline-block;
+            }
 
-    #nav .subnav {
-        position: initial;
-        background: #333;
-    }
+        #nav .subnav {
+            position: initial;
+            background: #333;
+        }
 
-    #nav .subnav a {
-        color: #fff;
-        padding: 5px 40px;
-    }
+            #nav .subnav a {
+                color: #fff;
+                padding: 5px 40px;
+            }
+
 
     #content .member-image {
         width: 60%;
     }
+
 
     .contact-content .contact-form {
         margin-top: 32px;

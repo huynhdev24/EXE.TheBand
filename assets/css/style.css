@@ -339,3 +339,56 @@ html {
     line-height: 1.4;
 }
 
+.contact-content {
+    margin-top: 48px;
+}
+
+.contact-content .contact-info {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.contact-content .contact-info i[class*="ti-"] {
+    width: 30px;
+    display: inline-block;
+}
+
+.contact-content .contact-form {
+    font-size: 15px;
+}
+
+.contact-content .contact-form .form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    outline: none;
+}
+
+.map-section img {
+    width: 100%;
+}
+
+#footer {
+    padding: 64px 16px;
+    text-align: center;
+}
+
+#footer .socials-list {
+    font-size: 24px;
+}
+
+.copyright a,
+#footer .socials-list a {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+
+.copyright a:hover,
+#footer .socials-list a:hover {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#footer .copyright {
+    margin-top: 15px;
+}
+

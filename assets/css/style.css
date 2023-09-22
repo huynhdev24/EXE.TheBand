@@ -38,11 +38,11 @@ html {
     margin-right: -8px;
 }
 
-    .row::after {
-        content: "";
-        display: block;
-        clear: both
-    }
+.row::after {
+    content: "";
+    display: block;
+    clear: both
+}
 
 .column {
     float: left;
@@ -99,15 +99,14 @@ html {
     padding: 8px 16px;
 }
 
-    .btn:hover {
-        cursor: pointer;
-        background: #ccc;
-        color: #000;
-    }
+.btn:hover {
+    cursor: pointer;
+    background: #ccc;
+    color: #000;
+}
 
 /* Main */
-#main {
-}
+#main {}
 
 
 /* Header */
@@ -130,57 +129,57 @@ html {
     list-style-type: none;
 }
 
-    #nav > li {
-        display: inline-block;
-    }
+#nav>li {
+    display: inline-block;
+}
 
-    #nav li {
-        position: relative
-    }
+#nav li {
+    position: relative
+}
 
-    #nav > li > a {
-        color: #fff;
-        text-transform: uppercase
-    }
+#nav>li>a {
+    color: #fff;
+    text-transform: uppercase
+}
 
-    #nav li a {
-        text-decoration: none;
-        line-height: 48px;
-        padding: 0 24px;
-        display: block;
-    }
+#nav li a {
+    text-decoration: none;
+    line-height: 48px;
+    padding: 0 24px;
+    display: block;
+}
 
-    #nav > li:hover > a,
-    #nav .subnav li:hover a {
-        color: #000 !important;
-        background-color: #ccc !important;
-    }
+#nav>li:hover>a,
+#nav .subnav li:hover a {
+    color: #000 !important;
+    background-color: #ccc !important;
+}
 
-    #nav li:hover .subnav {
-        display: block;
-    }
-
-
-    #nav .subnav {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        background: #fff;
-        box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
-        min-width: 160px;
-    }
+#nav li:hover .subnav {
+    display: block;
+}
 
 
-        #nav .subnav a {
-            color: #000;
-            padding: 0 12px;
-            line-height: 40px;
-        }
+#nav .subnav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+    min-width: 160px;
+}
 
-    #nav .nav-arrow-down {
-        font-size: 12px;
-    }
+
+#nav .subnav a {
+    color: #000;
+    padding: 0 12px;
+    line-height: 40px;
+}
+
+#nav .nav-arrow-down {
+    font-size: 12px;
+}
 
 #header .mobile-menu-btn {
     position: absolute;
@@ -195,18 +194,18 @@ html {
     padding: 0 21px;
 }
 
-    #header .search-btn:hover {
-        background-color: #f44336;
-        cursor: pointer;
-    }
+#header .search-btn:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
 
-    #header .mobile-menu-btn:hover {
-        background-color: #ccc;
-    }
+#header .mobile-menu-btn:hover {
+    background-color: #ccc;
+}
 
-        #header .mobile-menu-btn:hover .menu-icon {
-            color: #000;
-        }
+#header .mobile-menu-btn:hover .menu-icon {
+    color: #000;
+}
 
 #header .search-icon,
 #header .menu-icon {
@@ -223,76 +222,75 @@ html {
     position: relative;
 }
 
-    #slider .text-content {
-        position: absolute;
-        bottom: 48px;
-        color: #fff;
-        width: 100%;
-        /* left: 50%;
+#slider .text-content {
+    position: absolute;
+    bottom: 48px;
+    color: #fff;
+    width: 100%;
+    /* left: 50%;
         transform: translateX(-50%);*/
-        /*right: 0;
+    /*right: 0;
         left: 0;*/
-        text-align: center;
-    }
-
-    #slider .text-heading {
-        font-weight: 500;
-        font-size: 24px;
-    }
-
-    #slider .text-description {
-        font-size: 15px;
-        margin-top: 24px;
-        text-shadow: 0 0 1px #000;
-    }
-
-#content {
+    text-align: center;
 }
 
-    #content .content-session {
-        width: 800px;
-        max-width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 64px 0 112px;
-    }
+#slider .text-heading {
+    font-weight: 500;
+    font-size: 24px;
+}
 
-    #content .session-heading {
-        text-align: center;
-        font-weight: 500;
-        font-size: 30px;
-        letter-spacing: 4px;
-    }
+#slider .text-description {
+    font-size: 15px;
+    margin-top: 24px;
+    text-shadow: 0 0 1px #000;
+}
 
-    #content .session-sub-heading {
-        text-align: center;
-        font-size: 15px;
-        margin-top: 25px;
-        font-style: italic;
-        opacity: 0.7
-    }
+#content {}
 
-    #content .about-text {
-        text-align: justify;
-        font-size: 15px;
-        margin-top: 25px;
-        line-height: 1.4;
-    }
+#content .content-session {
+    width: 800px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0 112px;
+}
 
-    #content .member-list {
-        padding-top: 32px;
-    }
+#content .session-heading {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+#content .session-sub-heading {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 25px;
+    font-style: italic;
+    opacity: 0.7
+}
+
+#content .about-text {
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 25px;
+    line-height: 1.4;
+}
+
+#content .member-list {
+    padding-top: 32px;
+}
 
 
-    #content .member-name {
-        font-size: 15px
-    }
+#content .member-name {
+    font-size: 15px
+}
 
-    #content .member-image {
-        margin-top: 15px;
-        width: 154px;
-        border-radius: 4px;
-    }
+#content .member-image {
+    margin-top: 15px;
+    width: 154px;
+    border-radius: 4px;
+}
 
 .tour-section {
     background: #000;
@@ -303,67 +301,67 @@ html {
     margin-top: 40px;
 }
 
-    .tickets-list li {
-        color: #757575;
-        font-size: 15px;
-        padding: 11px 16px;
-        border-bottom: 1px solid #ddd;
-        list-style-type: none;
-    }
+.tickets-list li {
+    color: #757575;
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+    list-style-type: none;
+}
 
-    .tickets-list .sold-out {
-        background-color: #f44336 !important;
-        color: #fff;
-        padding: 3px 4px;
-        margin-left: 16px !important;
-    }
+.tickets-list .sold-out {
+    background-color: #f44336 !important;
+    color: #fff;
+    padding: 3px 4px;
+    margin-left: 16px !important;
+}
 
-    .tickets-list .quantity {
-        float: right;
-        margin-left: 16px;
-        width: 24px;
-        height: 24px;
-        background-color: #000;
-        color: #fff;
-        border-radius: 50%;
-        text-align: center;
-        line-height: 24px;
-        margin-top: -3px;
-    }
+.tickets-list .quantity {
+    float: right;
+    margin-left: 16px;
+    width: 24px;
+    height: 24px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    margin-top: -3px;
+}
 
 .places-list {
     margin-top: 16px;
 }
 
-    .places-list .place-img:hover {
-        opacity: 0.6
-    }
+.places-list .place-img:hover {
+    opacity: 0.6
+}
 
-    .places-list .place-img {
-        width: 100%;
-        display: block;
-    }
+.places-list .place-img {
+    width: 100%;
+    display: block;
+}
 
-    .places-list .place-body {
-        background-color: #fff;
-        padding: 16px;
-        font-size: 16px;
-    }
+.places-list .place-body {
+    background-color: #fff;
+    padding: 16px;
+    font-size: 16px;
+}
 
-    .places-list .place-heading {
-        font-size: 16px;
-        font-weight: 600;
-    }
+.places-list .place-heading {
+    font-size: 16px;
+    font-weight: 600;
+}
 
-    .places-list .place-time {
-        margin-top: 15px;
-        opacity: 0.60;
-    }
+.places-list .place-time {
+    margin-top: 15px;
+    opacity: 0.60;
+}
 
-    .places-list .place-description {
-        margin-top: 15px;
-        line-height: 1.4
-    }
+.places-list .place-description {
+    margin-top: 15px;
+    line-height: 1.4
+}
 
 
 
@@ -371,26 +369,26 @@ html {
     margin-top: 48px;
 }
 
-    .contact-content .contact-info {
-        font-size: 18px;
-        line-height: 1.4;
-    }
+.contact-content .contact-info {
+    font-size: 18px;
+    line-height: 1.4;
+}
 
-        .contact-content .contact-info i[class*="ti-"] {
-            width: 30px;
-            display: inline-block;
-        }
+.contact-content .contact-info i[class*="ti-"] {
+    width: 30px;
+    display: inline-block;
+}
 
-    .contact-content .contact-form {
-        font-size: 15px;
-    }
+.contact-content .contact-form {
+    font-size: 15px;
+}
 
-        .contact-content .contact-form .form-control {
-            padding: 10px;
-            border: 1px solid #ccc;
-            width: 100%;
-            outline: none;
-        }
+.contact-content .contact-form .form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    outline: none;
+}
 
 .map-section img {
     width: 100%;
@@ -401,24 +399,24 @@ html {
     text-align: center
 }
 
-    #footer .socials-list {
-        font-size: 24px
-    }
+#footer .socials-list {
+    font-size: 24px
+}
 
-        .copyright a,
-        #footer .socials-list a {
-            color: rgba(0, 0, 0, 0.6);
-            text-decoration: none
-        }
+.copyright a,
+#footer .socials-list a {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none
+}
 
-            .copyright a:hover,
-            #footer .socials-list a:hover {
-                color: rgba(0, 0, 0, 0.4)
-            }
+.copyright a:hover,
+#footer .socials-list a:hover {
+    color: rgba(0, 0, 0, 0.4)
+}
 
-    #footer .copyright {
-        margin-top: 15px
-    }
+#footer .copyright {
+    margin-top: 15px
+}
 
 
 .modal {
@@ -433,85 +431,85 @@ html {
     display: none;
 }
 
-    .modal.open {
-        display: flex;
-    }
+.modal.open {
+    display: flex;
+}
 
-    .modal .modal-container {
-        background: #fff;
-        width: 900px;
-        max-width: calc(100% - 32px);
-        min-height: 200px;
-        position: relative;
-        animation: modalFadeIn ease .6s;
-    }
+.modal .modal-container {
+    background: #fff;
+    width: 900px;
+    max-width: calc(100% - 32px);
+    min-height: 200px;
+    position: relative;
+    animation: modalFadeIn ease .6s;
+}
 
-    .modal .modal-close {
-        position: absolute;
-        right: 0;
-        top: 0;
-        color: #fff;
-        padding: 16px;
-    }
+.modal .modal-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    padding: 16px;
+}
 
-        .modal .modal-close:hover,
-        .modal #modal-buy-ticket:hover {
-            cursor: pointer;
-            color: #000;
-            background-color: #ccc;
-        }
+.modal .modal-close:hover,
+.modal #modal-buy-ticket:hover {
+    cursor: pointer;
+    color: #000;
+    background-color: #ccc;
+}
 
-    .modal .modal-header {
-        background: #009688;
-        height: 130px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 30px;
-        color: #fff;
-        line-height: 1.5;
-    }
+.modal .modal-header {
+    background: #009688;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+    line-height: 1.5;
+}
 
 
-    .modal .modal-body {
-        padding: 16px;
-    }
+.modal .modal-body {
+    padding: 16px;
+}
 
-    .modal .modal-label {
-        font-size: 15px;
-        display: block;
-        margin-bottom: 12px;
-        line-height: 1.5;
-    }
+.modal .modal-label {
+    font-size: 15px;
+    display: block;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
 
-    .modal .modal-input {
-        border: 1px solid #ccc;
-        width: 100%;
-        padding: 10px;
-        height: 37px;
-        margin-bottom: 24px;
-        font-size: 15px;
-    }
+.modal .modal-input {
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 10px;
+    height: 37px;
+    margin-bottom: 24px;
+    font-size: 15px;
+}
 
-    .modal #modal-buy-ticket {
-        width: 100%;
-        background: #009688;
-        border: none;
-        color: #fff;
-        font-size: 15px;
-        padding: 16px;
-        margin: 16px 0;
-        text-transform: uppercase;
-    }
+.modal #modal-buy-ticket {
+    width: 100%;
+    background: #009688;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 16px;
+    margin: 16px 0;
+    text-transform: uppercase;
+}
 
-    .modal .modal-footer {
-        padding: 16px;
-        float: right;
-    }
+.modal .modal-footer {
+    padding: 16px;
+    float: right;
+}
 
-        .modal .modal-footer a {
-            color: #2196F3
-        }
+.modal .modal-footer a {
+    color: #2196F3
+}
 
 @keyframes modalFadeIn {
     from {

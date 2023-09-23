@@ -11,10 +11,12 @@ var index = {
             buyBtns[i].addEventListener('click', this.showByTickets)
         };
     },
+
     onloadBtnCloseModal: function () {
         var modal = document.querySelector(".js-modal-close");
         modal.addEventListener('click', this.closeByTickets);
     },
+
     onCloseModal() {
         var modal = document.querySelector(".js-modal");
         var modalContainer = document.querySelector(".js-modal-container");
@@ -23,15 +25,16 @@ var index = {
         });
         modal.addEventListener('click', this.closeByTickets);
     },
+
     showByTickets: function () {
         var modal = document.querySelector('.js-modal');
         modal.classList.add('open');
     },
+    
     closeByTickets: function () { 
         var modal = document.querySelector('.js-modal');
         modal.classList.remove('open');
     }
-
 };
 
 index.init();
